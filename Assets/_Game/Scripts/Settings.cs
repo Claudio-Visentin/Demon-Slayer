@@ -39,5 +39,13 @@ public class Settings : MonoBehaviour {
                 SceneManager.LoadScene("MainMenu");
             }
         }
-	}
+        if (m_scene.name == "MainLevel")
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
 }
