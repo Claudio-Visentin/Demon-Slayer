@@ -5,7 +5,7 @@ public class Controls : MonoBehaviour
 {
     private Animator m_anim;
 
-    public static int health = 30;
+    public static int health = 10;
     public static int kills = 0;
     public bool Gamepad = false;
     public bool ishit = false;

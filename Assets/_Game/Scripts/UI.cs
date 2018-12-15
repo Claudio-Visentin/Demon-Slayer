@@ -29,7 +29,7 @@ public class UI : MonoBehaviour {
         GameOver.enabled = true;
         black.enabled = true;
         yield return new WaitForSeconds(3);
-        Controls.health = 30;
-        SceneManager.LoadScene("MainLevel");
+        Controls.health = 10;
+        SceneManager.LoadScene("MainMenu");
     }
 }

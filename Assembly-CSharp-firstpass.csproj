@@ -171,9 +171,6 @@
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>C:/Users/claud/Desktop/College/Game Tools/Demon Slayer 2/Demon Slayer/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>C:/Users/claud/Desktop/College/Game Tools/Demon Slayer 2/Demon Slayer/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/claud/Desktop/College/Game Tools/Demon Slayer 2/Demon Slayer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>

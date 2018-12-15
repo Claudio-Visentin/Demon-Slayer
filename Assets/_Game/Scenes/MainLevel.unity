@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 601688713}
-  m_IndirectSpecularColor: {r: 0.29617533, g: 0.2455912, b: 0.23195419, a: 1}
+  m_IndirectSpecularColor: {r: 0.4010745, g: 0.33418658, b: 0.31946096, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1074,7 +1074,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh16834
+  m_Name: pb_Mesh33060
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1314,6 +1314,7 @@ GameObject:
   - component: {fileID: 45399456}
   - component: {fileID: 45399455}
   - component: {fileID: 45399459}
+  - component: {fileID: 45399460}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -1328,7 +1329,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 45399453}
-  m_LocalRotation: {x: 0.12799712, y: 0.0052539953, z: -0.00067808316, w: 0.9917604}
+  m_LocalRotation: {x: 0.12387849, y: 0.042032383, z: -0.005252113, w: 0.9913929}
   m_LocalPosition: {x: -77.50665, y: 154.7, z: 154.31758}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1382,14 +1383,14 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 80
-  field of view: 60
+  field of view: 80
   orthographic: 0
   orthographic size: 4.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: 0
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -1436,6 +1437,101 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!82 &45399460
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 45399453}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e9354f54bb9dad442bb5e8008741dd13, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.574
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &47755782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2508,7 +2604,7 @@ MonoBehaviour:
   m_Follow: {fileID: 400056906}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 80
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 80
@@ -14434,7 +14530,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh16812
+  m_Name: pb_Mesh33030
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -21763,8 +21859,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.88, y: 1.74, z: 10.380406}
-  m_Center: {x: -0.01, y: 0.12, z: 5.090202}
+  m_Size: {x: 0.9525937, y: 0.9039586, z: 10.380405}
+  m_Center: {x: 0.05689813, y: 0.12356215, z: 5.0902014}
 --- !u!23 &858597254
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23490,7 +23586,7 @@ MonoBehaviour:
   m_HorizontalDamping: 0
   m_VerticalDamping: 0
   m_ScreenX: 0.38906223
-  m_ScreenY: 0.50208306
+  m_ScreenY: 0.5062498
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_SoftZoneWidth: 0.8
@@ -32208,7 +32304,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh16640
+  m_Name: pb_Mesh32490
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -33749,7 +33845,7 @@ MonoBehaviour:
   m_HorizontalDamping: 0
   m_VerticalDamping: 0
   m_ScreenX: 0.52031237
-  m_ScreenY: 0.5
+  m_ScreenY: 0.50416666
   m_DeadZoneWidth: 0.2625
   m_DeadZoneHeight: 0
   m_SoftZoneWidth: 0.8
@@ -38935,15 +39031,15 @@ RectTransform:
   m_GameObject: {fileID: 1407252581}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -105.5}
-  m_LocalScale: {x: 1.7099317, y: 3.7172534, z: 1.8025508}
+  m_LocalScale: {x: 0.17697793, y: 0.38473573, z: 0.18656401}
   m_Children: []
   m_Father: {fileID: 1478572516}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17, y: 26}
-  m_SizeDelta: {x: 297.17004, y: 30}
+  m_AnchoredPosition: {x: -6, y: 21.48}
+  m_SizeDelta: {x: 3757.91, y: 747.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1407252583
 MonoBehaviour:
@@ -38965,19 +39061,19 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
+    m_Font: {fileID: 12800000, guid: 1f16052dfd5f6f54e94e97ecedd4c86b, type: 3}
+    m_FontSize: 300
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 1
+    m_MaxSize: 300
+    m_Alignment: 4
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GAME OVER
+  m_Text: GAME  OVER
 --- !u!222 &1407252584
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42668,7 +42764,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 80
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 80
@@ -42690,7 +42786,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1492193751}
-  m_LocalRotation: {x: 0.12542002, y: -0.026089853, z: 0.24097727, w: 0.9620391}
+  m_LocalRotation: {x: 0.13038035, y: 0.010656537, z: 0.23591343, w: 0.96292907}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -43329,7 +43425,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 80
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 80
@@ -43351,7 +43447,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1544153770}
-  m_LocalRotation: {x: 0.094117105, y: -0.12807646, z: 0.31189868, w: 0.9367271}
+  m_LocalRotation: {x: 0.089063145, y: -0.13252936, z: 0.31164482, w: 0.93668634}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -43787,8 +43883,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.67, y: 7.48, z: 0.69}
-  m_Center: {x: -0.07, y: 3.434555, z: 6.1369705}
+  m_Size: {x: 0.46148008, y: 7.4799995, z: 0.46509123}
+  m_Center: {x: 0.0342601, y: 3.434555, z: 6.024516}
 --- !u!4 &1591885043
 Transform:
   m_ObjectHideFlags: 0
@@ -51779,8 +51875,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.86, y: 3.13, z: 3.23}
-  m_Center: {x: 0, y: 0.51, z: -1.41}
+  m_Size: {x: 2.86, y: 3.13, z: 3.1591942}
+  m_Center: {x: -0, y: 0.51000005, z: -1.445403}
 --- !u!208 &1845329829
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -52658,15 +52754,15 @@ RectTransform:
   m_GameObject: {fileID: 1908663320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.93420964, y: 1.8544, z: 1.8544}
+  m_LocalScale: {x: 0.18044259, y: 0.35817736, z: 0.35817736}
   m_Children: []
   m_Father: {fileID: 1478572516}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 151, y: -46}
-  m_SizeDelta: {x: 297.17, y: 30}
+  m_AnchoredPosition: {x: 142.1, y: -42.3}
+  m_SizeDelta: {x: 1495.9, y: 218.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1908663322
 MonoBehaviour:
@@ -52688,13 +52784,13 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
+    m_Font: {fileID: 12800000, guid: 1f16052dfd5f6f54e94e97ecedd4c86b, type: 3}
+    m_FontSize: 268
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 268
+    m_Alignment: 3
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -52948,8 +53044,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.88, y: 1.74, z: 10.380406}
-  m_Center: {x: -0.01, y: 0.12, z: 5.090202}
+  m_Size: {x: 0.7865132, y: 0.7428745, z: 10.380406}
+  m_Center: {x: -0.09771903, y: -0.0744382, z: 5.0902023}
 --- !u!208 &1919484421
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -53008,7 +53104,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 80
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 80
@@ -53030,7 +53126,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1921812399}
-  m_LocalRotation: {x: 0.056496695, y: -0.090563536, z: 0.18345629, w: 0.9772155}
+  m_LocalRotation: {x: 0.031456728, y: -0.08607967, z: 0.18061079, w: 0.9792756}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -55132,15 +55228,15 @@ RectTransform:
   m_GameObject: {fileID: 2021652247}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8621131, y: 1.7112888, z: 1.7112888}
+  m_LocalScale: {x: 0.2991059, y: 0.59372324, z: 0.59372324}
   m_Children: []
   m_Father: {fileID: 1478572516}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -134, y: -48}
-  m_SizeDelta: {x: 297.17, y: 30}
+  m_AnchoredPosition: {x: -175.2, y: -46}
+  m_SizeDelta: {x: 1092.7, y: 116.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021652249
 MonoBehaviour:
@@ -55162,13 +55258,13 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
+    m_Font: {fileID: 12800000, guid: 1f16052dfd5f6f54e94e97ecedd4c86b, type: 3}
+    m_FontSize: 175
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 2
+    m_MaxSize: 175
+    m_Alignment: 5
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -58998,8 +59094,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.39, y: 0.98, z: 10.380401}
-  m_Center: {x: -0.06, y: 0.01, z: 5.0902}
+  m_Size: {x: 0.9790314, y: 0.8651727, z: 10.380401}
+  m_Center: {x: 0.15849833, y: -0.096401356, z: 5.0902}
 --- !u!208 &2121890526
 NavMeshObstacle:
   m_ObjectHideFlags: 0
