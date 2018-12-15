@@ -1329,7 +1329,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 45399453}
-  m_LocalRotation: {x: 0.12387849, y: 0.042032383, z: -0.005252113, w: 0.9913929}
+  m_LocalRotation: {x: 0.12436983, y: 0.032066382, z: -0.00402143, w: 0.99170953}
   m_LocalPosition: {x: -77.50665, y: 154.7, z: 154.31758}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1383,7 +1383,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 80
-  field of view: 80
+  field of view: 75
   orthographic: 0
   orthographic size: 4.5
   m_Depth: -1
@@ -2604,14 +2604,14 @@ MonoBehaviour:
   m_Follow: {fileID: 400056906}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 80
+    FieldOfView: 75
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 80
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
-    m_BlendHint: 0
+    m_BlendHint: 3
     m_InheritPosition: 0
     m_OnCameraLive:
       m_PersistentCalls:
@@ -18458,7 +18458,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh27176
+  m_Name: pb_Mesh17360
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -42764,7 +42764,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 80
+    FieldOfView: 75
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 80
@@ -42786,7 +42786,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1492193751}
-  m_LocalRotation: {x: 0.13038035, y: 0.010656537, z: 0.23591343, w: 0.96292907}
+  m_LocalRotation: {x: 0.12843427, y: 0.0008622507, z: 0.2372429, w: 0.9629225}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -43425,7 +43425,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 80
+    FieldOfView: 75
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 80
@@ -43447,7 +43447,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1544153770}
-  m_LocalRotation: {x: 0.089063145, y: -0.13252936, z: 0.31164482, w: 0.93668634}
+  m_LocalRotation: {x: 0.08981694, y: -0.13118148, z: 0.3115754, w: 0.9368272}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -53104,7 +53104,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 80
+    FieldOfView: 75
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 80
@@ -53126,7 +53126,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1921812399}
-  m_LocalRotation: {x: 0.031456728, y: -0.08607967, z: 0.18061079, w: 0.9792756}
+  m_LocalRotation: {x: 0.0382938, y: -0.08730064, z: 0.18135, w: 0.97878724}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
